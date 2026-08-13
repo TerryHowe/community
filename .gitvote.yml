@@ -83,8 +83,11 @@ profiles:
     #     - cynthia-sg
     #     - tegioz
     #
+    # Only the org maintainers listed in OWNERS.md have a binding vote. They
+    # are kept in sync via the oras-org-maintainers team.
     allowed_voters:
-      teams: []
+      teams:
+        - oras-org-maintainers
       users: []
 
   # Additional configuration profiles
